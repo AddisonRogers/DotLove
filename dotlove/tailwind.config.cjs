@@ -2,12 +2,11 @@
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    fontFamily: {
-      inter: ['Inter']
-    },
     extend: {
-
+      fontFamily: {
+        'inter': ['Inter']
+      }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
